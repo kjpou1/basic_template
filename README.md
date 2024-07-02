@@ -49,7 +49,7 @@ This is a basic python starting template.
 
 ## Usage
 
-To run the library, use the provided `run_async.py` script with appropriate command-line arguments.
+To run the library, use the provided `run.py` script with appropriate command-line arguments.
 
 ### Command Line Arguments
 
