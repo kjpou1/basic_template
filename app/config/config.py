@@ -18,10 +18,10 @@ class Config(metaclass=SingletonMeta):
             self.logger = logging.getLogger(__name__)
 
     @classmethod
-    def initialize(cls, base_dir):
+    def initialize(cls):
         # Convenience method to explicitly initialize the Config
         # This method can be expanded to include more initialization parameters if needed
-        cls(base_dir=base_dir)
+        cls()
 
     @staticmethod
     def get(key, default=None):
